@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color:greenyellow;
+    font-size: 1.1em;
+    font-style: oblique;
+}
+.left-side1{
+    display: flex;
+}
+.nav-wrapper{
+    padding: 30px;
+}
+.nav-wrapper > .left-side1 > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+    color:black
+}
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.portfolio-item-wrapper
+{
+    position: relative;
+
+}
+.portfolio-img-background
+{
+    height: 350px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image-text-wrapper
+{
+    position: absolute;
+    top:0;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.image-text-wrapper .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color:transparent;
+}
+.image-text-wrapper:hover .subtitle{
+    font-weight: 600;
+    color:lightseagreen;
+
+}
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+
+}
+.content-wrapper > .two-column-wrapper > .fruit-shop-img img{
+    margin: 20px;
+}
+.Logo{
+    text-indent: -999999999px;
+    background: url("Images/logo/fti.png");
+    width: 321px;
+    height:131px;
+    margin-left: 500px;
+    background-color: teal;
+}
+.logo1{
+    text-indent: -999999999px;
+    background: url("Images/logo/gts.png");
+    width: 323px;
+    height:181px;
+    margin-left: 500px;
+    background-color: teal;
+
+}
+.text-class
+{
+    margin-left: 20px;
+    background-color:greenyellow;
+    font-style: oblique;
+}
